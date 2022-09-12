@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{1b09e7ff-fbec-4424-8abc-fd175fd77e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{00a939ff-6c26-459e-b781-a0c8037d3ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{552b4c87-56ea-4358-a180-05c4ea70c9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Organization">
+      <UniqueIdentifier>{6e4792cb-5352-4d51-b3fa-d04f7f33251d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data structures">
+      <UniqueIdentifier>{167dfcc3-b3d4-480d-b549-9821027a036a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Array2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCalculator.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Size.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximizePlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimizePlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomPlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyFactory.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TablePlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter.cpp">
+      <Filter>Organization</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanPlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldSystem.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CounselPlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMaxPlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldValuePair.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCalculator.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyFactory.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL.h">
+      <Filter>Organization</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldSystem.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldValuePair.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacros.h">
+      <Filter>Organization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Presenter.h">
+      <Filter>Organization</Filter>
+    </QtMoc>
+    <QtMoc Include="ViewInterface.h">
+      <Filter>Organization</Filter>
+    </QtMoc>
+    <QtMoc Include="Strategy.h">
+      <Filter>Game</Filter>
+    </QtMoc>
+    <QtMoc Include="MaximizePlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+    <QtMoc Include="MinimizePlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+    <QtMoc Include="RandomPlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+    <QtMoc Include="TablePlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+    <QtMoc Include="Game.h">
+      <Filter>Game</Filter>
+    </QtMoc>
+    <QtMoc Include="HumanPlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+    <QtMoc Include="CounselPlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+    <QtMoc Include="MinMaxPlayer.h">
+      <Filter>Game\Player</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
